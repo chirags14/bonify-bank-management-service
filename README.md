@@ -1,4 +1,4 @@
-# hhr-recruiting-service
+# bonify-bank-management-service
 
 ### Challenge
 
