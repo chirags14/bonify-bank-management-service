@@ -20,7 +20,7 @@ Get Bank name based on bank identifier
 
 
 ### Implementation 
-This is service using https://projects.spring.io/spring-boot, using Maven for compiling and building the application.This service uses H2 in memory database for loading bank details and getting bank name by bank Id. Used Spring Data JPA repository for backend operations with H2. For change in any application status this application monitors that using HRRecruitingAppStatusEventListner and log (*) in output.
+This is service using https://projects.spring.io/spring-boot, using Maven for compiling and building the application.This service uses H2 in memory database for loading bank details and getting bank name by bank Id. Used Spring Data JPA repository for backend operations with H2.
 ### List of API's
 
 1. ``POST /bank/records`` - load bank details from CSV file(bonify-bank-management-service\src\main\resources\data\bank_details_upload_file.csv) to DB 
